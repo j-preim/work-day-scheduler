@@ -1,11 +1,47 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.row {
+  border-top: 1px solid white;
+}
+
 #time {
-    background-color: rgb(229, 229, 229);
+  background-color: rgb(234, 234, 234);
+  border-top: 1px dashed #000000;
 }
 
-#tasks {
-    background-color: rgb(207, 207, 207);
+#tasksPast {
+  background-color: #d3d3d3;
 }
 
-#save {
-    background-color: rgb(0, 221, 255);
+#tasksPresent {
+  background-color: #ff6961;
+}
+
+#tasksFuture {
+  background-color: #77dd77;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
 }
